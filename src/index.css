@@ -17,6 +17,11 @@
     background-size: 400% 400%;
     animation: gradient 25s ease infinite;
 }
+
+.button-gradient{
+    background: rgb(224,30,98);
+    background: linear-gradient(41deg, rgba(224,30,98,1) 0%, rgba(224,30,98,1) 6%, rgba(224,84,32,1) 100%);
+}
           
 @keyframes gradient {
     0% {
