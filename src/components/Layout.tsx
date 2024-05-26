@@ -1,25 +1,17 @@
 import { Outlet} from 'react-router-dom';
-import Navbar from './Navbar';
-import SearchBar from './SearchBar';
+import Navbar from './navbar';
 
 const Layout = () => {
   return (
-    <div className='min-h-screen flex anim_gradient'>
-      <nav className='py-4 px-8 w-64 flex flex-col gap-8 bg-light-black/95'>
+    <section className='min-h-screen flex flex-col'>
 
-        <h1 className='text-2xl text-white font-extrabold'>GAME
-          <span className='text-primary'>VERSE</span>
-        </h1>
+      <Navbar/>
 
-        <Navbar/>
-      </nav>
-      <main className='flex flex-col gap-6 flex-1 py-4 px-8 bg-light-black/80'>
-        <div>
-          <SearchBar/>
-        </div>
+      <main className='flex flex-col gap-6 flex-1 bg-dark-black'>
         <Outlet />
       </main>
-    </div>
+      
+    </section>
   );
 };
 
