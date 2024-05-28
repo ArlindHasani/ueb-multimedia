@@ -2,6 +2,9 @@ import Hero from "../components/hero";
 import LargeCard from "../components/cards/large-card";
 import MediumCard from "../components/cards/medium-card";
 import SwiperSlider from "../components/swiper-slider";
+import SaleCard from "../components/cards/sale-card";
+import PromoCard from "../components/cards/promo-card";
+import PromotionsBanner from "../components/promotions-banner";
 
 const games = [
   {
@@ -86,13 +89,36 @@ const games = [
   },
 ]
 
+const promos = [
+  {
+    gameName: "Spiderman Remastered",
+    gamePrice: 49.99,
+    gameImage: "./assets/Spiderman-Remastered.webp",
+    promoDescription: "Enjoy discounts on Warhammer titles during the weeklong Skulls event! Runs May 23 to May 30.",
+    promoAction: "Save Now"
+  },
+  {
+    gameName: "Hogwarts Legacy",
+    gamePrice: 49.99,
+    gameImage: "./assets/Hogwarts-Legacy.jpg",
+    promoDescription: "Enjoy discounts on Warhammer titles during the weeklong Skulls event! Runs May 23 to May 30.",
+    promoAction: "Play For Free"
+  }
+];
+
 export default function Home() {
   return (
     <>
       <Hero/>
+      <section className="flex px-xsm lg:px-xlg my-4 gap-8">
+        <SaleCard saleImage="./sales/mega-sale.webp" saleName="mega-sale"/>
+        <SaleCard saleImage="./sales/shop-earn-redeem.avif" saleName="mega-sale"/>
+        <SaleCard saleImage="./sales/featured-giveaways.avif" saleName="mega-sale"/>
+      </section>
       <LargeCard/>
-      <SwiperSlider className="mx-8 my-6" header="MEGA Spotlight" games={games}/>
-      <SwiperSlider className="mx-8 my-6" header="Top New Releases" games={games}/>
+      <SwiperSlider className="px-xsm lg:px-xlg py-ylg" header="MEGA Spotlight" games={games}/>
+      <SwiperSlider className="px-xsm lg:px-xlg py-ylg" header="Top New Releases" games={games}/>
+      <PromotionsBanner/>
     </>
   )
 }

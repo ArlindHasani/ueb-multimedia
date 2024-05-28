@@ -6,7 +6,7 @@ import Wishlsit from "../buttons/wishlist-button";
 export default function LargeCard() {
 
     return (
-        <div className="mx-8 my-6 py-6 px-6 relative flex flex-col justify-between h-[550px] rounded-2xl">
+        <div className="mx-xsm lg:mx-xlg my-ylg py-6 px-6 relative flex flex-col justify-between h-[550px] rounded-2xl cursor-pointer">
 
             <div className="absolute w-full h-full left-0 top-0 bg-light-black rounded-2xl"></div>
             <div className="absolute w-full h-full left-0 top-0 rounded-2xl bg-[url('./assets/Hogwarts-Legacy.jpg')] bg-no-repeat bg-cover"></div>
