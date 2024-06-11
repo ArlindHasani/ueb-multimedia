@@ -30,7 +30,7 @@ const promos = [
 
 export default function PromotionsBanner() {
   return (
-    <section className='flex flex-col gap-6 p-4 lg:px-16 lg:py-8 bg-light-grey/50'>
+    <section className='flex flex-col gap-6 p-4 lg:px-16 lg:py-8 bg-light-grey/50 my-8'>
       <div className='flex justify-between items-center text-white mb-4'>
         <h2 className='text-lg flex items-center gap-2'><FiGift className='w-8 h-8'/> Free Games</h2>
         <OutlineButton buttonCta='View More' buttonLink='/view-more'/>

@@ -40,7 +40,7 @@ export default function PixiJsMap() {
 
       worldContainer.children.sort((a, b) => a.position.y - b.position.y);
 
-      worldContainer.x = (app.renderer.width - worldSize) / 2;
+      worldContainer.x = (app.renderer.width - worldSize) / 2 -50;
       worldContainer.y = (app.renderer.height - worldSize) / 2 - 50;
 
       const centerX = worldSize / 2;
@@ -123,7 +123,7 @@ export default function PixiJsMap() {
   }, []);
 
   return (
-    <div ref={pixiContainerRef} className="overflow-hidden h-[650px]">
+    <div ref={pixiContainerRef} className="overflow-hidden h-[650px] rounded-xl mx-16">
 
     </div>
   );
