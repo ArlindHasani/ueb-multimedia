@@ -1,9 +1,7 @@
 import Hero from "../components/hero";
 import LargeCard from "../components/cards/large-card";
-import MediumCard from "../components/cards/medium-card";
 import SwiperSlider from "../components/swiper-slider";
 import SaleCard from "../components/cards/sale-card";
-import PromoCard from "../components/cards/promo-card";
 import PromotionsBanner from "../components/promotions-banner";
 
 const games = [
