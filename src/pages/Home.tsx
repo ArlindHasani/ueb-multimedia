@@ -3,6 +3,8 @@ import LargeCard from "../components/cards/large-card";
 import SwiperSlider from "../components/swiper-slider";
 import SaleCard from "../components/cards/sale-card";
 import PromotionsBanner from "../components/promotions-banner";
+import PixiJsText from "../components/PixiJsText";
+import PixiJsMap from "../components/PixiJsMap";
 
 const games = [
   {
@@ -116,7 +118,12 @@ export default function Home() {
       <LargeCard/>
       <SwiperSlider className="px-xsm lg:px-xlg py-ylg" header="MEGA Spotlight" games={games}/>
       <SwiperSlider className="px-xsm lg:px-xlg py-ylg" header="Top New Releases" games={games}/>
+      <div className="relative max-w-full h-[150px]">
+        <PixiJsText poem="GAME ON WITHOUT BREAKING THE BANK: UNBEATABLE PRICES, UNLIMITED FUN!"/>
+      </div>
+      <PixiJsMap/>
       <PromotionsBanner/>
+
     </>
   )
 }

@@ -36,7 +36,7 @@ const Message: React.FC<{ poem: string; interval?: number; children: (text: stri
 
 const PixiJsText: React.FC<{ poem: string }> = ({ poem }) => {
     const containerRef = useRef<HTMLDivElement>(null);
-    const [dimensions, setDimensions] = useState({ width: 200, height: 100 });
+    const [dimensions, setDimensions] = useState({ width: 100, height: 100 });
 
     useEffect(() => {
         const handleResize = () => {
@@ -58,13 +58,14 @@ const PixiJsText: React.FC<{ poem: string }> = ({ poem }) => {
         fill: "white",
         align: 'center',
         fontFamily: '"Poppins", sans-serif',
+        fontWeight: 800,
         wordWrap: true,
         wordWrapWidth: dimensions.width - 20,
     } as Partial<PIXI.ITextStyle>;
 
     return (
-        <div ref={containerRef} style={{ width: "100%", height: "100%" }}>
-            <Stage width={dimensions.width} height={dimensions.height}>
+        <div ref={containerRef} style={{ width: "100", height: "100%" }}>
+            <Stage width={1500} height={dimensions.height} options={{backgroundColor: '#121212'}}>
                 <Message poem={poem} interval={100}>
                     {(text) => (
                         <Text
