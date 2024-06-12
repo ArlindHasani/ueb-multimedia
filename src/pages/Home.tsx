@@ -114,11 +114,11 @@ export default function Home() {
       </section>
       <LargeCard/>
       <SwiperSlider className="px-xsm lg:px-xlg py-ylg" header="MEGA Spotlight" games={games}/>
-      <SwiperSlider className="px-xsm lg:px-xlg py-ylg" header="Top New Releases" games={games}/>
       <div className="relative max-w-full h-[150px]">
         <PixiJsText poem="GAME ON WITHOUT BREAKING THE BANK: UNBEATABLE PRICES, UNLIMITED FUN!"/>
       </div>
       <PixiJsMap/>
+      <SwiperSlider className="px-xsm lg:px-xlg py-ylg" header="Top New Releases" games={games}/>
       <PromotionsBanner/>
       <FlyAway/>
     </> 
