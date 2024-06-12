@@ -83,11 +83,6 @@ const games = [
     gamePrice: 49.99,
     gameImage: "Hogwarts-Legacy.webp"
   },
-  {
-    gameName: "Spiderman Remastered",
-    gamePrice: 49.99,
-    gameImage: "Spiderman-Remastered.webp"
-  },
 ]
 
 const promos = [
@@ -125,7 +120,7 @@ export default function Home() {
       <PixiJsMap/>
       <PromotionsBanner/>
       <FlyAway/>
-    </>
+    </> 
   )
 }
 ``
