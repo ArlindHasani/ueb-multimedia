@@ -14,34 +14,24 @@ const games = [
     gameImage: "Hogwarts-Legacy.webp"
   },
   {
-    gameName: "Spiderman Remastered",
-    gamePrice: 49.99,
-    gameImage: "Spiderman-Remastered.webp"
+    gameName: "Counter-Strike 2",
+    gamePrice: 19.99,
+    gameImage: "cs2.webp"
   },
   {
-    gameName: "Hogwarts Legacy",
-    gamePrice: 49.99,
-    gameImage: "Hogwarts-Legacy.webp"
+    gameName: "Wolfenstein II: The New Colossus",
+    gamePrice: 29.99,
+    gameImage: "wf.webp"
   },
   {
-    gameName: "Spiderman Remastered",
+    gameName: "Far Cry 6",
     gamePrice: 49.99,
-    gameImage: "Spiderman-Remastered.webp"
+    gameImage: "fc6.webp"
   },
   {
-    gameName: "Hogwarts Legacy",
+    gameName: "Borderlands 3",
     gamePrice: 49.99,
-    gameImage: "Hogwarts-Legacy.webp"
-  },
-  {
-    gameName: "Spiderman Remastered",
-    gamePrice: 49.99,
-    gameImage: "Spiderman-Remastered.webp"
-  },
-  {
-    gameName: "Hogwarts Legacy",
-    gamePrice: 49.99,
-    gameImage: "Hogwarts-Legacy.webp"
+    gameImage: "borderl.webp"
   },
   {
     gameName: "Spiderman Remastered",
@@ -49,40 +39,51 @@ const games = [
     gameImage: "Spiderman-Remastered.webp"
   },
   {
-    gameName: "Hogwarts Legacy",
-    gamePrice: 49.99,
-    gameImage: "Hogwarts-Legacy.webp"
+    gameName: "Apex Legends",
+    gamePrice: 29.99,
+    gameImage: "Apex-Legends.webp"
   },
   {
-    gameName: "Spiderman Remastered",
-    gamePrice: 49.99,
-    gameImage: "Spiderman-Remastered.webp"
+    gameName: "BLack Mesa",
+    gamePrice: 19.99,
+    gameImage: "Black-Mesa.webp"
   },
   {
-    gameName: "Hogwarts Legacy",
-    gamePrice: 49.99,
-    gameImage: "Hogwarts-Legacy.webp"
+    gameName: "Call Of Duty 2042",
+    gamePrice: 79.99,
+    gameImage: "Cod-2042.webp"
   },
   {
-    gameName: "Spiderman Remastered",
+    gameName: "Doom Eternal",
+    gamePrice: 39.99,
+    gameImage: "Doom-Eternal.webp"
+  },
+
+  {
+    gameName: "Titan Fall",
     gamePrice: 49.99,
-    gameImage: "Spiderman-Remastered.webp"
+    gameImage: "titan-fall.webp"
   },
   {
-    gameName: "Hogwarts Legacy",
+    gameName: "Half Life 2",
     gamePrice: 49.99,
-    gameImage: "Hogwarts-Legacy.webp"
+    gameImage: "Half-Life2.webp"
   },
   {
-    gameName: "Spiderman Remastered",
+    gameName: "Metro Exodus",
     gamePrice: 49.99,
-    gameImage: "Spiderman-Remastered.webp"
+    gameImage: "Metro-Exodus.webp"
   },
   {
-    gameName: "Hogwarts Legacy",
+    gameName: "Rainbow 6 Siege",
     gamePrice: 49.99,
-    gameImage: "Hogwarts-Legacy.webp"
+    gameImage: "Rainbow-6.webp"
   },
+  {
+    gameName: "Counter-Strike: Global Offensive",
+    gamePrice: 1.99,
+    gameImage: "csgo.webp"
+  }
 ]
 
 const promos = [

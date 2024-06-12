@@ -5,6 +5,7 @@ import {
   motion, 
   AnimatePresence 
 } from 'framer-motion';
+import { Link } from "react-router-dom";
 
 export default function Footer() {
 
@@ -22,8 +23,8 @@ export default function Footer() {
       <div className='container mx-auto flex justify-between px-8 mb-12 md:px-16 lg:px-32'>
         <ul className='text-white font-light space-y-2'>
           <li className='uppercase text-zinc-400 mb-4'>Shop</li>
-          <li className='cursor-pointer text-sm transition-colors hover:text-primary'>Home</li>
-          <li className='cursor-pointer text-sm transition-colors hover:text-primary'>Categories</li>
+          <li className='cursor-pointer text-sm transition-colors hover:text-primary '><Link to="/">Home</Link></li>
+          <li className='cursor-pointer text-sm transition-colors hover:text-primary'><Link to="/categories">Category</Link></li>
         </ul>
         <ul className='text-white font-light space-y-2'>
           <li className='uppercase text-zinc-400 mb-4'>About</li>
