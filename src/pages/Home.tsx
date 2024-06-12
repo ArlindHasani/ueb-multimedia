@@ -11,7 +11,7 @@ const games = [
   {
     gameName: "Hogwarts Legacy",
     gamePrice: 49.99,
-    gameImage: "Hogwarts-Legacy.jpg"
+    gameImage: "Hogwarts-Legacy.webp"
   },
   {
     gameName: "Spiderman Remastered",
@@ -21,7 +21,7 @@ const games = [
   {
     gameName: "Hogwarts Legacy",
     gamePrice: 49.99,
-    gameImage: "Hogwarts-Legacy.jpg"
+    gameImage: "Hogwarts-Legacy.webp"
   },
   {
     gameName: "Spiderman Remastered",
@@ -31,7 +31,7 @@ const games = [
   {
     gameName: "Hogwarts Legacy",
     gamePrice: 49.99,
-    gameImage: "Hogwarts-Legacy.jpg"
+    gameImage: "Hogwarts-Legacy.webp"
   },
   {
     gameName: "Spiderman Remastered",
@@ -41,7 +41,7 @@ const games = [
   {
     gameName: "Hogwarts Legacy",
     gamePrice: 49.99,
-    gameImage: "Hogwarts-Legacy.jpg"
+    gameImage: "Hogwarts-Legacy.webp"
   },
   {
     gameName: "Spiderman Remastered",
@@ -51,7 +51,7 @@ const games = [
   {
     gameName: "Hogwarts Legacy",
     gamePrice: 49.99,
-    gameImage: "Hogwarts-Legacy.jpg"
+    gameImage: "Hogwarts-Legacy.webp"
   },
   {
     gameName: "Spiderman Remastered",
@@ -61,7 +61,7 @@ const games = [
   {
     gameName: "Hogwarts Legacy",
     gamePrice: 49.99,
-    gameImage: "Hogwarts-Legacy.jpg"
+    gameImage: "Hogwarts-Legacy.webp"
   },
   {
     gameName: "Spiderman Remastered",
@@ -71,7 +71,7 @@ const games = [
   {
     gameName: "Hogwarts Legacy",
     gamePrice: 49.99,
-    gameImage: "Hogwarts-Legacy.jpg"
+    gameImage: "Hogwarts-Legacy.webp"
   },
   {
     gameName: "Spiderman Remastered",
@@ -81,7 +81,7 @@ const games = [
   {
     gameName: "Hogwarts Legacy",
     gamePrice: 49.99,
-    gameImage: "Hogwarts-Legacy.jpg"
+    gameImage: "Hogwarts-Legacy.webp"
   },
   {
     gameName: "Spiderman Remastered",
@@ -101,7 +101,7 @@ const promos = [
   {
     gameName: "Hogwarts Legacy",
     gamePrice: 49.99,
-    gameImage: "./assets/Hogwarts-Legacy.jpg",
+    gameImage: "./assets/Hogwarts-Legacy.webp",
     promoDescription: "Enjoy discounts on Warhammer titles during the weeklong Skulls event! Runs May 23 to May 30.",
     promoAction: "Play For Free"
   }

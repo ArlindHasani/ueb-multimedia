@@ -2,7 +2,7 @@
 export default function Hero() {
 
   const styles = {
-    backgroundImage: `url('./assets/game-bg.jpg')`,
+    backgroundImage: `url('./assets/game-bg.webp')`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
   };

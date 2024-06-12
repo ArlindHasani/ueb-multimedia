@@ -15,14 +15,14 @@ const promos = [
   {
     gameName: "Hogwarts Legacy",
     gamePrice: 49.99,
-    gameImage: "./assets/Hogwarts-Legacy.jpg",
+    gameImage: "./assets/Hogwarts-Legacy.webp",
     promoDescription: "Enjoy discounts on Warhammer titles during the weeklong Skulls event! Runs May 23 to May 30.",
     promoAction: "Play For Free"
   },
   {
     gameName: "Hogwarts Legacy",
     gamePrice: 49.99,
-    gameImage: "./assets/Hogwarts-Legacy.jpg",
+    gameImage: "./assets/Hogwarts-Legacy.webp",
     promoDescription: "Enjoy discounts on Warhammer titles during the weeklong Skulls event! Runs May 23 to May 30.",
     promoAction: "Play For Free"
   }

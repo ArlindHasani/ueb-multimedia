@@ -15,9 +15,9 @@ export default function PixiJsMap() {
 
       const treeTexture = await Assets.load(`https://pixijs.com/assets/tree.png`);
       const signTextures = {
-        newGames: await Assets.load(`./assets/new-sign.png`),
-        onSale: await Assets.load(`./assets/sale-sign.png`),
-        upcoming: await Assets.load(`./assets/coming-sign.png`),
+        newGames: await Assets.load(`./assets/new-sign.webp`),
+        onSale: await Assets.load(`./assets/sale-sign.webp`),
+        upcoming: await Assets.load(`./assets/coming-sign.webp`),
       };
 
       const worldSize = 5000;
